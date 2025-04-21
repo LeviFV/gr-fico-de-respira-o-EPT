@@ -3,7 +3,7 @@ installed.packages('ggplot2')
 library(stringr)
 library(ggplot2)
 
-setwd("C:/Users/Lenovo/Downloads")
+setwd("C:\Users\Lenovo\OneDrive\Área de Trabalho\Levi\R\Traits EPT Respiração")
 
 csv <- read.csv("Traits_EPT_Respiração.csv",na.strings = c(""),stringsAsFactors = FALSE)
 
